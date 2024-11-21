@@ -1,0 +1,46 @@
+button{
+    margin-left: 65px;
+    margin-right: 65px;
+    border-style:solid;
+    width: 10%;
+    height: 45px;
+    display: inline-block;
+    background-color: white;
+    border-color: rgb(230, 186, 192);
+    border-radius: 8px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+div h2{
+    display: inline-block;
+}
+
+div button{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;  
+      
+}
+
+h2{
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(250, 230, 242);
+    background-image: linear-gradient(white, pink);
+    height: 725px;
+}
+
+#submitNum{
+    background-color: pink;
+    font-weight: bold;
+    border-radius: 8px;
+    border-color: pink;
+}

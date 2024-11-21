@@ -1,0 +1,51 @@
+h2{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button{
+    margin-left: 65px;
+    margin-right: 65px;
+    border-style:solid;
+    width: 10%;
+    height: 45px;
+    display: inline-block;
+    background-color: white;
+    border-color: rgb(230, 186, 192);
+    border-radius: 8px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+table, th {
+    border: 5px solid black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    border-collapse: collapse;
+}
+
+#header {
+    background-color: rgb(251, 200, 207);
+}
+
+#body {
+    background-image: linear-gradient(white, pink);
+}
+
+body{
+    background-image: url('images/scoreboard.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+#link{
+    text-align: right;
+    display: block;
+    position: fixed;
+    bottom: 0;
+}

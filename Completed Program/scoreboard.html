@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "En">
+
+<head>
+<meta charset = "UTF-8">
+<link rel="stylesheet" href="scoreboard.css">
+<script src = "scoreboard.js"></script>
+
+
+</head>
+
+<body>
+<a href="home.html">
+        <button>Home</button>
+</a>
+
+<a href="aboutUs.html">
+    <button>About Us</button>
+</a>
+
+<a href="howTo.html">
+    <button>How To Play</button>
+</a>
+
+<a href="scoreboard.html">
+    <button>Scoreboard</button>
+</a>
+
+<button onclick="playMusic()" ondblclick = "pauseMusic()">🎵</button>
+<hr>
+
+<h2>Scoreboard of Players</h2>
+<table>
+    <tr id="header">
+        <th>Player</th>
+        <th>Score</th>
+    </tr>
+    <tr id="body">
+        <th id = "names"></th>
+        <th id = "scores"></th>
+    </tr>
+</table>
+
+
+
+<audio id="music" loop>
+    <source src="CuteMusicbyWOWSound.mp3" type="audio/mpeg">
+    <source src="CuteMusicbyWOWSound.ogg" type="audio/ogg">
+</audio>
+</body>
+
+<footer>
+    <a id="link" href="https://i.pinimg.com/originals/83/e9/21/83e921ac431779c936a4d5a4d87cbf05.jpg">Image Source</a>
+</footer>
+
+</html>

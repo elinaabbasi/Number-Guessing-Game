@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang = "En">
+
+<head>
+<meta charset = "UTF-8">
+<link rel="stylesheet" href="home.css">
+<script src = "home.js"></script>
+
+
+</head>
+
+<body>
+    
+    <a href="home.html">
+            <button>Home</button>
+    </a>
+    
+    <a href="aboutUs.html">
+        <button>About Us</button>
+    </a>
+    
+    <a href="howTo.html">
+        <button>How To Play</button>
+    </a>
+    
+    <a href="scoreboard.html">
+        <button>Scoreboard</button>
+    </a>
+    
+    <button onclick="playMusic()" ondblclick = "pauseMusic()">🎵</button>
+    
+    <hr>
+    
+    <h1>Guess the Number</h1>
+
+    <div>
+    <h2>Select a Level:</h2>
+    
+    
+    <button onclick = "setDifficulty(10); buttonColorEasy()" id = "buttonEasy" >Easy</button>
+    <button onclick="setDifficulty(30); buttonColorMedium()" id = "buttonMedium">Medium</button>
+    <button onclick="setDifficulty(50); buttonColorHard()" id = "buttonHard">Hard</button>
+    
+
+    </div> 
+    <br>
+
+    <div class="form">
+        <label for="guessNum">
+            <h2>Enter a Number:</h2> 
+        </label>
+        
+        <input type="text" id="guessNum" class="guessNum">
+        
+        <input type="submit" value="Submit" class="numSubmit" id="submitNum">
+    </div>
+    <br>
+    <h2>Attempts: </h2>
+    <h2 id="output"></h2>
+    <br>
+    <br>
+    <h2>Numbers Guessed: </h2>
+    <h2 id = "array"></h2>
+    <br>
+    <br>
+    <div>
+    <a href="home.html">
+    <button>New Game</button>
+    </a>
+    </div>
+
+    <audio id="music" loop>
+        <source src="CuteMusicbyWOWSound.mp3" type="audio/mpeg">
+        <source src="CuteMusicbyWOWSound.ogg" type="audio/ogg">
+    </audio>
+</body>
+
+</html>

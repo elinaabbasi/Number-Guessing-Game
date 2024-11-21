@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang = "En">
+
+<head>
+<meta charset = "UTF-8">
+<link rel="stylesheet" href="howTo.css">
+<script src = "howTo.js"></script>
+
+
+</head>
+
+<body>
+<a href="home.html">
+        <button>Home</button>
+</a>
+
+<a href="aboutUs.html">
+    <button>About Us</button>
+</a>
+
+<a href="howTo.html">
+    <button>How To Play</button>
+</a>
+
+<a href="scoreboard.html">
+    <button>Scoreboard</button>
+</a>
+
+<button onclick="playMusic()" ondblclick = "pauseMusic()">🎵</button>
+<hr>
+
+
+<h3>Objective: </h3>
+<ol>To correctly guess the number within the range of 1 to X, depending on the chosen difficulty level, in the least amount of attempts possible and make it to the top of the scoreboard. </ol>
+<h3>Rules/Instructions:</h3>
+
+<ol>
+    <li>Choose a difficulty level</li>
+    <li>Enter a number you think the game has chosen</li>
+    <li>The game will give you hints on whether your guess is too low or too high</li>
+    <li>You're number of attempts will be shown below</li>
+    <li>The numbers you have previously entered will be shown below as well</li>
+    <li>Once you guess the number right, enter your name for it to be placed on the scoreboard</li>
+    <li>The person with the lowest attempts of guessing the number right wins!</li>
+    <li>To start a new game press the "New Game" button</li>
+    <li>To play music, click the music note on the top right, to stop playing music, double click the music note</li>
+</ol>
+<br>
+<br>
+<br>
+<br>
+
+<img src="images/guessNum.png" alt="Number Picture">
+<br>
+<br>
+<a id = "picture" href="https://colab.research.google.com/drive/1r19aaQclX8B0bGYrJfoc0DQldqIQoOwI">Link to Picture</a>
+
+
+<audio id="music" loop>
+    <source src="CuteMusicbyWOWSound.mp3" type="audio/mpeg">
+    <source src="CuteMusicbyWOWSound.ogg" type="audio/ogg">
+</audio>
+</body>
+
+</html>
